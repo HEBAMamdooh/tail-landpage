@@ -69,10 +69,16 @@
               </label><!-- company -->
               <label class="block">
                 <span>email</span>
-                <input
-                  class="mt-1 block w-full rounded-full border-gray-300 shadow-sm focus:border-cyan-300 focus:ring focus:ring-cyan-200 focus:ring-opacity-50"
+                <input class="mt-1 block w-full rounded-full border-gray-300 shadow-sm focus:border-cyan-300 focus:ring focus:ring-cyan-200 focus:ring-opacity-50"
                   type="email" name="email" id="email" />
               </label><!-- email -->
+              <label for="locale" class="block">
+                <span>locale</span>
+                <select name="locale" id="locale">
+                  <option value="1">English</option>
+                  <option value="2">العربية</option>
+                </select>
+              </label> <!-- locale -->
               <label for="notes" class="block">
                 <span>notes</span>
                 <textarea
@@ -112,6 +118,7 @@
                   <span class="ml-2">other</span>
                 </label>
               </fieldset> <!-- services -->
+              
               <button
                 class="mt-2 h-10 w-full block font-semibold hover:font-bold text-cyan-900 dark:text-cyan-50 sm:text-left sm:text-5xl capitalize rounded-full  shadow-sm focus:border-cyan-300 focus:ring focus:ring-cyan-200 focus:ring-opacity-50 bg-cyan-400"
                 type="submit" name="submit" value="send message"> <span class="text-center mx-auto">send message</span>
